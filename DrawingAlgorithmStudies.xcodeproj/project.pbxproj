@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		55BA19532ECE536800EFD970 /* PocketSVG in Frameworks */ = {isa = PBXBuildFile; productRef = 55BA19522ECE536800EFD970 /* PocketSVG */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		55BA192A2ECE51FB00EFD970 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -52,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55BA19532ECE536800EFD970 /* PocketSVG in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -112,6 +117,7 @@
 			);
 			name = DrawingAlgorithmStudies;
 			packageProductDependencies = (
+				55BA19522ECE536800EFD970 /* PocketSVG */,
 			);
 			productName = DrawingAlgorithmStudies;
 			productReference = 55BA191C2ECE51FA00EFD970 /* DrawingAlgorithmStudies.app */;
@@ -195,6 +201,9 @@
 			);
 			mainGroup = 55BA19132ECE51FA00EFD970;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				55BA19512ECE536800EFD970 /* XCRemoteSwiftPackageReference "PocketSVG" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 55BA191D2ECE51FA00EFD970 /* Products */;
 			projectDirPath = "";
@@ -558,6 +567,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		55BA19512ECE536800EFD970 /* XCRemoteSwiftPackageReference "PocketSVG" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pocketsvg/PocketSVG.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.2.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		55BA19522ECE536800EFD970 /* PocketSVG */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 55BA19512ECE536800EFD970 /* XCRemoteSwiftPackageReference "PocketSVG" */;
+			productName = PocketSVG;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 55BA19142ECE51FA00EFD970 /* Project object */;
 }
