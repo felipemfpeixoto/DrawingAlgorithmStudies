@@ -75,7 +75,7 @@ struct DrawingOverlayView: View {
                     
                     ForEach(Array(points.enumerated()), id: \.offset) { _, point in
                         Circle()
-                            .fill(Color.green)
+                            .fill(Color.red)
                             .frame(width: 3, height: 3)
                             .position(
                                 x: (point.x - bounds.minX) * scale + (geometry.size.width - bounds.width * scale) / 2,
