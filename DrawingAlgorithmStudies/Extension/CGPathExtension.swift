@@ -16,7 +16,7 @@ extension CGPath {
                 
                 // CRÍTICO: Adicionar pontos intermediários para FORÇAR linha reta
                 let distance = hypot(to.x - from.x, to.y - from.y)
-                let numPoints = max(Int(distance / 100), 2) // Um ponto a cada 5 unidades
+                let numPoints = max(Int(distance / 3), 2) // TODO: (0) Testar varios valores aqui, quanto menor, mais pontos, mas maior o tempo para o calculo da nota (achar o meio termo q fique bom)
                 
                 for i in 1...numPoints {
                     let t = CGFloat(i) / CGFloat(numPoints)

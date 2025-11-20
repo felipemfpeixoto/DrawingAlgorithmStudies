@@ -12,7 +12,7 @@ struct DebugDrawingComparisonView: View {
     
     // Desenho base (SVG)
     @State private var baseDrawing = PKDrawing()
-    @State private var baseSVGName = "RuneWing" // Altere para o nome do seu SVG
+    @State private var baseSVGName = "RuneTower" // Altere para o nome do seu SVG
     
     // Métricas de debug
     @State private var currentDistance: CGFloat = 0
